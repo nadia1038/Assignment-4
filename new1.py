@@ -7,7 +7,7 @@ string=input()
 array=[]
 
 for i in string:
-    if (i in string) and (i not in array):
+    if(i not in array):
         array.append(i)
 print(array)
 
@@ -19,6 +19,6 @@ string=input()
 array=[]
 
 for i in string:
-    if (i in string) and (i not in array):
+    if(i not in array):
         array.append(i)
 print(array)

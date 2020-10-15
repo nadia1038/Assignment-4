@@ -8,7 +8,7 @@ string1=input()
 string2=input()
 array=[]
 for i in string1:
-    if (i in string1) and (i in string2)and (i not in array):
+    if (i in string2)and(i not in array):
         array.append(i)
 print(array)
 
@@ -25,10 +25,10 @@ string2 = input()
 array = []
 
 for i in string1:
-    if (i in string1) and (i not in string2)and (i not in array):
+    if (i not in string2)and(i not in array):
         array.append(i)
 for i in string2:
-    if (i in string2) and (i not in string1)and(i not in array):
+    if (i not in string1)and(i not in array):
         array.append(i)
         
 print(array)        
