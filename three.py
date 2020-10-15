@@ -26,7 +26,7 @@ print(2*(i+j))
 
 string = "w"
 
-if len(string)>1:
-   print(string[0]+string[1])
+if len(string)<2:
+   print("")
 else:
-   print("empty string")
+   print(string[0]+string[1])
